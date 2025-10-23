@@ -1,0 +1,78 @@
+.app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9fafc;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.todo-form button {
+  padding: 10px 15px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #007bff;
+  color: white;
+}

@@ -5,7 +5,7 @@ const TodoList = ({ todos, updateTodo, deleteTodo }) => {
   return (
     <div className="todo-list">
       {todos.length === 0 ? (
-        <p>Aucune tâche trouvée 😴</p>
+        <p>Aucune tâche trouvée </p>
       ) : (
         todos.map((todo) => (
           <TodoItem
